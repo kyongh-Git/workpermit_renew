@@ -37,11 +37,11 @@ function GetParameterValues() {
 				  //grad assitantship
 				    v1 = urlparam[9].split(",");
 				   v1s=v1[1];
-				  $("#element_28").val(v1[0]).replaceAll("%20", " ");
+				  $("#element_28").val(v1[0].replaceAll("%20", " "));
 				  //department
 				  v1 = urlparam[10].split(",");
 				   v1s=v1[1];
-				  $("#element_11").val(v1[0]).replaceAll("%20", " ");
+				  $("#element_11").val(v1[0].replaceAll("%20", " "));
 				  //status
 				   v1 = urlparam[11].split(",");
 				   v1s=v1[1];
@@ -53,11 +53,11 @@ function GetParameterValues() {
 				  //coc
 				    v1 = urlparam[13].split(",");
 				   v1s=v1[1];
-				  $("#element_19").val(v1[0]).replaceAll("%20", " ");
+				  $("#element_19").val(v1[0].replaceAll("%20", " "));
 				  //residency
 				    v1 = urlparam[14].split(",");
 				   v1s=v1[1];
-				  $("#element_20").val(v1[0]).replaceAll("%20", " ");
+				  $("#element_20").val(v1[0].replaceAll("%20", " "));
 				  //doe to US
 				   v1 = urlparam[15].split(",");
 				   v1s=v1[1];
