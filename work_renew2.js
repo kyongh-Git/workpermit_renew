@@ -60,8 +60,8 @@ function GetParameterValues() {
 				  $("#element_20").val(v1[0].replaceAll("%20", " "));
 				  //doe to US
 				   v1 = urlparam[16].split(",");
-				   v1s=v1[1].replaceAll("%20", " ");
-				  $("#element_29").val(v1[0]);
+				   v1s=v1[1];
+				  $("#element_29").val(v1[0].replaceAll("%20", " "));
                }
 });
 $(function() {
