@@ -7,11 +7,11 @@ function GetParameterValues() {
                  //last name
  				  var v1 = urlparam[2].split(",");
 				  var v1s=v1[0];
-                  $("#element_1").val(v1s);
+                  $("#element_1").val(v1s.replaceAll("%20", " "));
 				  //first name
 				  v1 = urlparam[3].split(",");
 				   v1s=v1[1];
-				  $("#element_2").val(v1[0]);
+				  $("#element_2").val(v1[0].replaceAll("%20", " "));
 				 //banner id
 				 v1 = urlparam[4].split(",");
 				   v1s=v1[1];
